@@ -3,7 +3,7 @@ import instaloader
 
 # Carrega a lib e faz login com a conta desejada #
 L = instaloader.Instaloader()
-L.login('*** SEU USER DO INSTA ***', '*** SUA SENHA ***')
+L.login('vtao.tito', '@Tito2022!')
 
 # Carrega todos os posts do perfil escolhido #
 posts = instaloader.Profile.from_username(L.context, "pycodebr").get_posts()
